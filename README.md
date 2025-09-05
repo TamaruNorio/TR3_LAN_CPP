@@ -1,3 +1,23 @@
+> タカヤ TR3 シリーズ（TR3XM 等）を **LAN（TCP）** で操作する **C++ サンプル**です。  
+> **Windows / MSVC** 向け。日本語プロンプトで実行できます。
+
+**動作環境**
+- Windows 10/11 (x64)
+- Build Tools for Visual Studio 2022（C++ ツール）
+- TR3 シリーズ RFID リーダー（LAN 接続）
+
+**使い方（3ステップ）**
+1. **ダウンロード**：  
+   - 推奨 → [Releases](https://github.com/TamaruNorio/TR3_LAN_CPP/releases)  
+   - もしくは [ZIP（main）](https://github.com/TamaruNorio/TR3_LAN_CPP/archive/refs/heads/main.zip)
+2. **ビルド**：`build_msvc.bat release`（Debugなら `build_msvc.bat`）  
+   成果物は `build\tr3xm_lan.exe`
+3. **実行**：`build\tr3xm_lan.exe` を起動 → 画面の日本語プロンプトに従い IP/PORT・読取回数・アンテナ数を入力
+
+**問い合わせ**：不具合・質問は [Issues](https://github.com/TamaruNorio/TR3_LAN_CPP/issues) へお願いします。
+
+
+
 # TR3_LAN_CPP – タカヤ TR3 シリーズ RFID リーダー LAN サンプル（C++）
 
 タカヤ製 TR3 シリーズ（例：TR3XM）を **LAN（TCP）経由**で操作する最小サンプルです。  
