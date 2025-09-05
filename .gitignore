@@ -1,0 +1,15 @@
+# build artifacts
+/build/
+*.obj
+*.pdb
+*.ilk
+*.log
+
+# local config (前回のIP/PORTなど個人設定)
+config.txt
+
+# VSCode local
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json

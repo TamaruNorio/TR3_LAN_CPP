@@ -1,0 +1,46 @@
+{
+  "cSpell.language": "en,ja",
+  "cSpell.words": [
+    "TAKAYA",
+    "rfds",
+    "WSADATA",
+    "winsock",
+    "sockaddr",
+    "inet",
+    "pton",
+    "ETX",
+    "STX",
+    "ANT",
+    "Ws2_32",
+    "MSVC",
+    "DSFID"
+  ],
+  "cSpell.ignoreRegExpList": [
+    "0x[0-9A-Fa-f]+"
+  ],
+
+  // ここからビルド安定化（PowerShellではなく cmd.exe を既定に）
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.profiles.windows": {
+    "Command Prompt": {
+      "path": "C:\\Windows\\System32\\cmd.exe"
+    }
+  },
+
+  // ついでに出力先を検索/ウォッチから除外（任意）
+  "files.watcherExclude": {
+    "**/build/**": true
+  },
+  "search.exclude": {
+    "**/build/**": true
+  },
+  "files.associations": {
+    "vector": "cpp"
+  },
+
+  "cSpell.ignorePaths":  [
+      "build_msvc.bat",
+      "launch.json"
+  ]
+}
+
